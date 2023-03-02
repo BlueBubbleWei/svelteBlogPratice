@@ -12,6 +12,8 @@ const config = {
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
+		// 输出文件的目录，默认为.svelte-kit
+		outDir: 'dev'
 		// 更改启动页面的入口文件
 		// files: {
     //   routes: 'src/pages'
