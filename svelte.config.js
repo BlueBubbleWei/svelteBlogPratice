@@ -13,9 +13,9 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		// 更改启动页面的入口文件
-		files: {
-      routes: 'src/pages'
-    }
+		// files: {
+    //   routes: 'src/pages'
+    // }
 	}
 };
 
